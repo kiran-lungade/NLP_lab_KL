@@ -28,10 +28,9 @@ print("--------------------------------------TFIDF VECTOR-----------------------
 
 
 ##TFIDF
-text = [ "NLP enables computers to understand natural language as humans do."
-    "Whether the language is spoken or written,"
-    "natural language processing uses artificial intelligence to take real-world input, process it,"
-    "and make sense of it in a way a computer can understand."
+text = [ "Our online English classes feature lots of useful learning materials."
+        "Also activities to help you develop your reading skills."
+        "It develop confidence in a safe and inclusive learning environment."
 ]
 
 g_dict = corpora.Dictionary([simple_preprocess(line) for line in text])
